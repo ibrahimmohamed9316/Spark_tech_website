@@ -1,0 +1,146 @@
+/* RTL (Right-to-Left) Styles for Arabic Version */
+
+/* Override navigation for RTL */
+.nav-container {
+    direction: rtl;
+}
+
+.nav-menu {
+    direction: rtl;
+}
+
+.nav-menu li {
+    margin-right: 2rem;
+    margin-left: 0;
+}
+
+.hamburger {
+    left: 20px;
+    right: auto;
+}
+
+/* Language dropdown RTL adjustments */
+.language-dropdown .dropdown-menu {
+    right: auto;
+    left: 0;
+}
+
+/* Hero section RTL */
+.hero-content {
+    direction: rtl;
+    text-align: center;
+}
+
+.hero-buttons {
+    direction: rtl;
+}
+
+/* Stats grid RTL */
+.stats-grid {
+    direction: rtl;
+}
+
+/* Services grid RTL */
+.services-grid {
+    direction: rtl;
+}
+
+/* Project showcase RTL */
+.project-showcase {
+    direction: rtl;
+}
+
+.project-meta {
+    direction: rtl;
+}
+
+.project-tech {
+    direction: rtl;
+}
+
+/* Team grid RTL */
+.team-grid {
+    direction: rtl;
+}
+
+/* Contact section RTL */
+.contact-content {
+    direction: rtl;
+}
+
+.contact-details {
+    direction: rtl;
+}
+
+.contact-item {
+    direction: rtl;
+}
+
+.contact-item i {
+    margin-left: 1rem;
+    margin-right: 0;
+}
+
+/* Footer RTL */
+.footer-content {
+    direction: rtl;
+}
+
+.social-links {
+    direction: rtl;
+}
+
+.newsletter-form {
+    direction: rtl;
+}
+
+/* Form adjustments for RTL */
+.form-group input,
+.form-group textarea {
+    direction: rtl;
+    text-align: right;
+}
+
+/* Mobile navigation RTL */
+@media (max-width: 768px) {
+    .nav-menu {
+        text-align: center;
+        direction: rtl;
+    }
+    
+    .hamburger {
+        left: 20px;
+        right: auto;
+    }
+}
+
+/* Arabic font optimization */
+body[dir="rtl"] {
+    font-family: 'Noto Sans Arabic', 'Inter', sans-serif;
+}
+
+/* Text alignment for Arabic */
+.section-header,
+.hero-content,
+.testimonial-content,
+.contact-info {
+    text-align: center;
+}
+
+/* Ensure proper spacing for Arabic text */
+.service-card,
+.team-member,
+.stat-item {
+    text-align: center;
+}
+
+/* Fix any layout issues in RTL */
+.project-details h3,
+.project-details p {
+    text-align: right;
+}
+
+.member-bio,
+.service-card p {
+    text-align: center;
+}
