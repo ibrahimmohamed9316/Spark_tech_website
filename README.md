@@ -4,71 +4,83 @@ https://spark-tech.netlify.app
 
 A professional, modern website for Spark Tech, a technology company offering website and app development, cloud solutions, and digital strategy services.
 
+## 🌍 Multilingual Support
+
+This website is available in three languages:
+- **English** (index.html)
+- **Arabic** (index-ar.html) - with RTL support
+- **Dutch** (index-nl.html)
+
 ## 🎨 Design Features
 
 - **Color Scheme**: Black, white, and orange highlights (#ff6b35)
-- **Typography**: Modern, clean Inter font family
+- **Typography**: Modern, clean Inter font family with Arabic support (Noto Sans Arabic)
 - **Layout**: Responsive design that works on all devices
 - **Animations**: Smooth scroll animations and interactive elements
+- **RTL Support**: Full right-to-left layout for Arabic version
 
 ## 📱 Sections Included
 
 ### 1. Hero Section
-- Eye-catching headline: "Innovative Digital Solutions for Growth"
-- Compelling subtext about Spark Tech's services
-- Call-to-action buttons: "Our Services" and "Get Started"
-- Animated background with grid pattern
+- Eye-catching headline: "Ignite Your Digital Presence"
+- Compelling subtext about SPARK's digital solutions
+- Call-to-action buttons: "Get Started" and "View Our Work"
+- Animated background with modern overlay
 
-### 2. About Us Section
-- Company journey and values since 2018
+### 2. About SPARK Section
+- Company values and digital transformation mission
 - Impressive statistics:
-  - 300k+ Projects Delivered
-  - 50k+ Satisfied Clients
-  - 100+ Team Members
-  - 10+ Expert Professionals
+  - 150+ Completed Projects
+  - 50+ Happy Clients
+  - 5+ Years Experience
+  - 24/7 Support
 
 ### 3. Services Section
-Four main service offerings:
-- **Website Design & Development**: Custom websites with stunning design
-- **Mobile App Development**: Native and cross-platform applications
-- **Digital Strategy Consulting**: Strategic guidance for digital presence
-- **Cloud Solutions**: Scalable cloud infrastructure services
+Six comprehensive service offerings:
+- **Web Development**: Custom websites with modern technologies
+- **Mobile Applications**: Native and cross-platform apps
+- **UI/UX Design**: Beautiful, intuitive designs that drive conversions
+- **Digital Marketing**: Comprehensive SEO, social media, and paid advertising
+- **Cloud Solutions**: Scalable cloud infrastructure and hosting
+- **Security**: Comprehensive security solutions for digital assets
 
 ### 4. Testimonial Section
-- Featured testimonial from Emily Johnson, Marketing Director at GreenEco Solutions
+- Featured testimonial from Sarah Johnson, CEO at TechStart
 - 5-star rating display
-- Professional quote about digital transformation
+- Success story about 200% online sales increase
 
 ### 5. Featured Projects
-- Showcase of "EcoFriendly Marketplace" project
-- Client: GreenLife Inc.
-- Date: May 2023
-- Technology stack: React, Node.js, MongoDB, AWS
+- Showcase of "Next-Generation E-commerce" project
+- Client: TechStart Company
+- Technology stack: React, Node.js, MongoDB, Stripe
+- Modern project presentation with tech tags
 
 ### 6. Team Section
-Eight team members including:
-- Sarah Chen (CEO & Founder)
-- Michael Rodriguez (CTO)
-- Jennifer Park (Lead Developer)
-- David Thompson (UX Designer)
-- Lisa Wang (Project Manager)
-- Alex Johnson (DevOps Engineer)
-- Maria Garcia (Marketing Director)
-- Ryan Kim (Mobile Developer)
+Four key team members:
+- Alex Chen (Lead Developer)
+- Maria Rodriguez (UI/UX Designer)
+- David Kim (Project Manager)
+- Emily Zhang (Marketing Specialist)
 
 ### 7. Contact Section
 - Contact form with name, email, and message fields
-- Company address: 123 Market St, San Francisco, CA
-- Phone and email contact information
-- Form validation and submission handling
+- Company address: 123 Innovation Street, Dubai, UAE
+- Phone: +971 4 123 4567
+- Email: hello@sparkdigital.ae
 
 ### 8. Footer
 - Company information and social media links
-- Quick navigation links
+- Service links and company navigation
 - Newsletter subscription form
 - Copyright notice
 
-## 🚀 Features
+## 🚀 Technical Features
+
+### Multilingual Support
+- **Language Switcher**: Easy navigation between languages
+- **RTL Layout**: Proper Arabic right-to-left text direction
+- **Localized Content**: Fully translated content for each language
+- **Font Support**: Arabic fonts (Noto Sans Arabic) and Inter for Latin scripts
 
 ### Interactive Elements
 - **Mobile Navigation**: Hamburger menu for mobile devices
@@ -76,97 +88,50 @@ Eight team members including:
 - **Scroll Animations**: Elements fade in as you scroll
 - **Counter Animations**: Statistics count up when visible
 - **Hover Effects**: Interactive cards and buttons
-- **Form Validation**: Real-time form validation with notifications
-- **Progress Bar**: Visual scroll progress indicator
+- **Form Validation**: Real-time form validation
 
-### Technical Features
-- **Responsive Design**: Works perfectly on desktop, tablet, and mobile
-- **Modern CSS**: Flexbox and Grid layouts
-- **JavaScript Interactivity**: Dynamic content and animations
-- **Performance Optimized**: Fast loading and smooth animations
-- **Accessibility**: Proper semantic HTML and keyboard navigation
+### Responsive Design
+- **Desktop**: 1200px and above
+- **Tablet**: 768px - 1199px
+- **Mobile**: Below 768px
+- **RTL Support**: Proper layout mirroring for Arabic
 
 ## 📁 File Structure
 
 ```
 Website/
-├── index.html          # Main HTML file
-├── styles.css          # CSS styles and responsive design
+├── index.html          # English version
+├── index-ar.html       # Arabic version (RTL)
+├── index-nl.html       # Dutch version
+├── styles.css          # Main CSS styles
+├── styles-rtl.css      # RTL-specific styles
 ├── script.js           # JavaScript functionality
 └── README.md           # Documentation
 ```
 
 ## 🛠️ Technologies Used
 
-- **HTML5**: Semantic markup
-- **CSS3**: Modern styling with Flexbox and Grid
+- **HTML5**: Semantic markup with language attributes
+- **CSS3**: Modern styling with Flexbox, Grid, and RTL support
 - **JavaScript (ES6+)**: Interactive functionality
 - **Font Awesome**: Icons
-- **Google Fonts**: Inter font family
+- **Google Fonts**: Inter and Noto Sans Arabic fonts
 
-## 🎯 Key Features
+## 🌐 Deployment
 
-### Visual Design
-- Clean, professional aesthetic
-- Orange accent color (#ff6b35) for highlights
-- Dark navigation with glassmorphism effect
-- Gradient backgrounds and modern card designs
-
-### User Experience
-- Intuitive navigation
-- Clear call-to-action buttons
-- Engaging animations and transitions
-- Mobile-first responsive design
-
-### Performance
-- Optimized images and assets
-- Efficient CSS and JavaScript
-- Fast loading times
-- Smooth animations
-
-## 📱 Responsive Breakpoints
-
-- **Desktop**: 1200px and above
-- **Tablet**: 768px - 1199px
-- **Mobile**: Below 768px
-- **Small Mobile**: Below 480px
-
-## 🚀 Getting Started
-
-1. **Download** all files to your local directory
-2. **Open** `index.html` in your web browser
-3. **Navigate** through the website to explore all sections
-4. **Test** the responsive design by resizing your browser window
-
-## 🎨 Customization
-
-### Colors
-The main color scheme can be modified in `styles.css`:
-- Primary Orange: `#ff6b35`
-- Secondary Orange: `#ff8c42`
-- Dark Orange: `#e55a2b`
-
-### Content
-- Update company information in `index.html`
-- Modify services, team members, and project details
-- Change contact information and social media links
-
-### Styling
-- Adjust fonts, colors, and spacing in `styles.css`
-- Modify animations and transitions
-- Update responsive breakpoints as needed
+This website is deployed and accessible at: https://spark-tech.netlify.app
 
 ## 📞 Contact Information
 
-For questions or support regarding this website template:
-- Email: hello@sparktech.com
-- Phone: +1 (555) 123-4567
-- Address: 123 Market St, San Francisco, CA 94105
+For questions or support:
+- Email: hello@sparkdigital.ae
+- Phone: +971 4 123 4567
+- Address: 123 Innovation Street, Dubai, UAE
 
 ## 📄 License
 
-This website template is created for Spark Tech. All rights reserved.
+© 2025 SPARK Digital Solutions. All rights reserved.
 
 ---
 
-**Spark Tech** - Empowering businesses through innovative digital solutions since 2018. 
+**SPARK** - Igniting digital transformation through innovative solutions and creative excellence.
